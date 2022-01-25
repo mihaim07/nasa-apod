@@ -67,9 +67,6 @@ body {
 .images-container {
   width: 800px;
   margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .card {
@@ -123,7 +120,7 @@ body {
   body {
     line-height: 1.4rem;
     font-size: 0.9rem;
-
+    text-align: justify;
   }
 
   .images-container {
@@ -133,6 +130,10 @@ body {
 
   .card-title {
     font-size: 20px;
+  }
+
+  .save-confirmed {
+    right: 25px;
   }
 
   
